@@ -1,0 +1,89 @@
+/* General Dashboard Styling */
+
+  
+  /* Loading Screen */
+  .loading {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 20%;
+  }
+  
+  /* Role Section Styling */
+  .role-section {
+    padding: 20px;
+    margin: 30px;
+    gap: 30px;
+  }
+  
+  .role-section div {
+    border: 2px solid #ddd;
+    padding: 20px;
+    width: 100%;
+
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error {
+    font-size: 1.2em;
+    color: red;
+    background-color: #f8d7da;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Role Components Styling */
+  .admin-component,
+  .teacher-component,
+  .student-component,
+  .parent-component {
+    font-size: 1.2em;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .admin-component {
+    background-color: #f4f4f4;
+  }
+  
+  .teacher-component {
+    background-color: #e8f4e8;
+  }
+  
+  .student-component {
+    background-color: #e3f2fd;
+  }
+  
+  .parent-component {
+    background-color: #fff3e0;
+  }
+  
+  /* Additional Styling */
+  button {
+    background-color:  #f0f76e;
+    color: rgb(42, 40, 40);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color:  #edf81b;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  .error-message {
+    font-size: 1em;
+    color: red;
+  }
+  

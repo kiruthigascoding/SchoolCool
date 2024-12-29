@@ -1,0 +1,123 @@
+/* Enrollment Form Container */
+.enrollment-form {
+    margin-top: 100px;
+    
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    position: relative; /* Ensure positioning is relative to this container */
+  }
+  
+  
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Align to the right corner */
+    background: none;
+    border: none;
+    font-size: 1.5rem; 
+    color: #333;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    width: fit-content;
+  }
+  
+  .close-btn:hover {
+    color: red; /* Change color on hover */
+  }
+  
+  /* Heading */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 30px; /* Add space to prevent overlap with the X button */
+  }
+  
+  /* Success and Error Messages */
+  .success-message,
+  .error-message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .success-message {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Label styling */
+  .form-group label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input and Select Styling */
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .form-group input[type="text"]:focus,
+  .form-group input[type="email"]:focus,
+  .form-group input[type="date"]:focus,
+  .form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Submit Button Styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #f0f76e;
+    color: rgb(77, 59, 59);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d2da3a;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .enrollment-form {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  }
+  
